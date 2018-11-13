@@ -10,7 +10,6 @@ while True:
         inp = input("")
         if inp == 'x':
             break
-        ec.step()
         for i in ec.array:
             if i == 0:
                 print('   ', end='')
@@ -18,3 +17,4 @@ while True:
             else:
                 print(' ◼ ', end='')
         print()
+        ec.step()x`
