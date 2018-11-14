@@ -17,4 +17,4 @@ while True:
             else:
                 print(' ◼ ', end='')
         print()
-        ec.step()x`
+        ec.step()
