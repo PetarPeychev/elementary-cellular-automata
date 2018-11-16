@@ -4,7 +4,7 @@ class ECA:
         self.dict = {}
 
         for i in range(8):
-            self.dict[bin(i)[2:].zfill(3)] = self.id[i]
+            self.dict[bin(7 - i)[2:].zfill(3)] = self.id[i]
 
         self.array = [0 for x in range(31)]
         self.array[15] = 1
