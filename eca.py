@@ -6,8 +6,8 @@ class ECA:
         for i in range(8):
             self.dict[bin(7 - i)[2:].zfill(3)] = self.id[i]
 
-        self.array = [0 for x in range(31)]
-        self.array[15] = 1
+        self.array = [0 for x in range(199)]
+        self.array[99] = 1
 
     def step(self):
         arr = [0 for x in range(len(self.array))]
